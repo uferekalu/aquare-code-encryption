@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="welcomeMsg">Hello, Welcome to SquareCode</h3>
+    <h3 id="inputHeaderText">Please enter a sentence that is at least 50 characters long!</h3>
+    
+    <input type="text" id="inputText" name="inputText" placeholder="enter text here" multiple>
+
+    <button id="encodeBtn" >Encode Message</button>
+    
+    <br />
+    
+    <h3 class="headerText">Normalized Input Rectangle: </h3>
+    <div id="normalizedRectangle">
+    </div>
+
+    <h3 class="headerText">Encoded Chunks are shown below:</h3>
+    <div id="encoded"></div>
+
+    <h3 class="headerText">Encoded Message Rectangle:</h3>
+    <div id="encodedRectangle"></div>
+
+</body>
+
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,110 @@
+body {
+    background-color: #fff;
+    position: relative;
+}
+
+h4{
+    padding: 1em;
+    background: #4caf50;
+    width: 80%;
+    margin: 6px;
+    text-align: center;
+    left: 10%;
+    right: 10%;
+    position: relative;
+    border: 2px solid #4caf50;
+    color: #fff;
+}
+
+#inputText {
+    padding: 0.7em;
+    background: #FFFFFF;
+    width: 80%;
+    margin: 3px;
+    text-align: center;
+    font-size: 1.2em;
+    left: 10%;
+    position: relative;
+    height: 24px;
+    border: 2px solid #4caf50;
+}
+
+#normalizedRectangle, #encodedRectangle {
+    width: 30%;
+    height: 200px;
+    background: #FFFFFF;
+    color: black;
+    text-align: justify;
+    left: 10%;
+    right: 10%;
+    margin: 6px;
+    padding: 6px;
+    position: relative;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.2em;
+    align-content: center;
+    letter-spacing: 1px;
+    border: 2px solid lightgray;
+}
+
+#encoded {
+    width: 80%;
+    height: 24px;
+    background: #FFFFFF;
+    color: black;
+    text-align: justify;
+    left: 10%;
+    right: 10%;
+    margin: 6px;
+    padding: 6px;
+    position: relative;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: monospace;
+    border: 2px solid lightgray;
+}
+
+#encodeBtn {
+    background: coral;
+    color: #FFFFFF;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    height: 40px;
+    width: 220px;
+    position: relative;
+    left: 40%;
+    margin: 12px;
+    font-weight: bold;
+}
+
+#encodeBtn:hover {
+    color: coral;
+    background: #FFFFFF;
+    border: 2px solid coral;
+}
+
+.headerText {
+    left: 10%;
+    position: relative;
+    width: 30%;
+    margin: 6px;
+}
+
+#inputHeaderText {
+    left: 10%;
+    position: relative;
+    width: 800%;
+    margin: 12px;
+}
+
+#welcomeMsg {
+    left: 10%;
+    width: 80%;
+    position: relative;
+    margin: 6px;
+    padding: 1em;
+    background: #4caf50;
+    color: #fff;
+    text-align: center
+}
